@@ -14,7 +14,7 @@ func write1() {
 		return
 	}
 	defer file.Close()
-	str := "hello world\n"
+	str := "hello world\r\n"
 	//写入时。使用带缓存的*Writer
 	writer := bufio.NewWriter(file)
 	for i := 0; i < 5; i++ {
