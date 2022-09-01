@@ -6,11 +6,11 @@ import (
 )
 
 type Monster struct {
-	Name     string
-	Age      int
-	Birthday string
-	Sal      float64
-	Skill    string
+	Name     string  `json:"monster_name"` //tag标签，用于输出json指定的字段
+	Age      int     `json:"monster_age"`
+	Birthday string  `json:"monster_birthday"`
+	Sal      float64 `json:"monster_sal"`
+	Skill    string  `json:"monster_skill"`
 }
 
 func testStruct() {
