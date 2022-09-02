@@ -1,4 +1,4 @@
-package main
+package cal
 
 func add(n int) int {
 	sum := 0

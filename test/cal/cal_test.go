@@ -1,6 +1,8 @@
-package main
+package cal
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestGetSum(t *testing.T) {
 	res := add(10)
