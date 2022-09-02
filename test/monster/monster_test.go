@@ -6,7 +6,7 @@ import "testing"
 func TestStore(t *testing.T) {
 	//先创建一个Monster实例
 	monster := &Monster{
-		Name:  "红孩儿",
+		Name:  "红孩儿!",
 		Age:   10,
 		Skill: "吐火",
 	}
