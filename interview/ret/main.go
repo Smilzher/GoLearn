@@ -30,4 +30,7 @@ func c() *int {
 func main() {
 	fmt.Println("return b():", b())
 	fmt.Println("return c():", *(c()))
+
+	str := `test \n ttt %d`
+	fmt.Printf(str, 100)
 }
